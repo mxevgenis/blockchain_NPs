@@ -1,0 +1,208 @@
+{
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "demand_resources",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getBestMatch",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256[]"
+                },
+                {
+                    "name": "",
+                    "type": "uint256[]"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "np_count",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "NetProvtoOwner",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_result",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_demand_resources",
+                    "type": "uint256"
+                }
+            ],
+            "name": "transaction",
+            "outputs": [],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "offered_resources",
+                    "type": "uint256"
+                },
+                {
+                    "name": "reserved_resources",
+                    "type": "uint256"
+                },
+                {
+                    "name": "cost",
+                    "type": "uint256"
+                },
+                {
+                    "name": "domain",
+                    "type": "string"
+                },
+                {
+                    "name": "sla",
+                    "type": "uint256"
+                },
+                {
+                    "name": "_address",
+                    "type": "address"
+                }
+            ],
+            "name": "addNetworkProvider",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "demand_resources",
+                    "type": "uint256"
+                }
+            ],
+            "name": "get_request_resources",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "HasNetProv",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "NetworkProviders",
+            "outputs": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "offered_resources",
+                    "type": "uint256"
+                },
+                {
+                    "name": "reserved_resources",
+                    "type": "uint256"
+                },
+                {
+                    "name": "cost",
+                    "type": "uint256"
+                },
+                {
+                    "name": "domain",
+                    "type": "string"
+                },
+                {
+                    "name": "sla",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "contract_address": "0x3c34cF3B6860195409cD86795267D3a9B7C4a089"
+}
